@@ -1,0 +1,13 @@
+models:
+  - name: stg_stock_prices
+    description: Stocks prices in daily time frame for years
+    columns:
+      - name: date
+        description: The daily date of stock events
+        data_tests:
+          - not_null
+      - name: symbol
+        description: Ticker of stocks 
+        data_tests:
+          - not_null
+    

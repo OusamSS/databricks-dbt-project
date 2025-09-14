@@ -1,0 +1,3 @@
+models:
+  - name: fct_daily_metrics
+    description: Dailt metrics data mart, offering key details for each unique stock.
